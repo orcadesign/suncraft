@@ -6,14 +6,14 @@ Error: Undefined mixin 'mq'.
 1: /* menu page *\/
 2: .page-template-vegan {
 3: 	main {
-4: 		height: 45em;
+4: 		height: 55em;
 5: 		
 6: 		@include mq('tablet-wide') {
 7: 			height: 39vw;
 8:    			min-height: 30em;
 9:    	 	}
 10: 	}
-11: 	
+11: 
 
 Backtrace:
 /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss:6:in `mq'
@@ -76,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'mq'.\A         on line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss, in `mq'\A         from line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss\A \A 1: /* menu page */\A 2: .page-template-vegan {\A 3: 	main {\A 4: 		height: 45em;\A 5: 		\A 6: 		@include mq('tablet-wide') {\A 7: 			height: 39vw;\A 8:    			min-height: 30em;\A 9:    	 	}\A 10: 	}\A 11: 	"; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss, in `mq'\A         from line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss\A \A 1: /* menu page */\A 2: .page-template-vegan {\A 3: 	main {\A 4: 		height: 55em;\A 5: 		\A 6: 		@include mq('tablet-wide') {\A 7: 			height: 39vw;\A 8:    			min-height: 30em;\A 9:    	 	}\A 10: 	}\A 11: "; }

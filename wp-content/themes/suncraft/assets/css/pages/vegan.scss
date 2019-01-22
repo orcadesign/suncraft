@@ -1,15 +1,14 @@
 /* menu page */
 .page-template-vegan {
 	main {
-		height: 45em;
+		height: 55em;
 		
 		@include mq('tablet-wide') {
 			height: 39vw;
    			min-height: 30em;
    	 	}
 	}
-	
-	
+
 	.container {
 		&.top {
 			a.flag {
@@ -34,7 +33,7 @@
 				}
 			}
 			h3.tagline {
-				max-width: 30rem; 
+				max-width: 56rem; 
 				
 				@include mq('tablet-wide') {
 					max-width: 20rem;
@@ -243,6 +242,7 @@
 				}
 				p {
 					margin-bottom: 0;
+					text-transform: uppercase;
 				}
 				span {
 					text-transform: uppercase;
