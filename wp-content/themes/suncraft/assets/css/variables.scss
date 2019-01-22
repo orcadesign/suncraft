@@ -1,0 +1,28 @@
+$colors: (
+	primary: #AAA371,
+	secondary: #A7A7A7,
+	tertiary: #de3391
+);
+$fonts: (
+	medium: 12px,
+	primary-font-stack: 'Lato',
+	secondary-font-stack: 'PT Serif'
+);
+
+$thin: 100;
+$light: 300;
+$medium: 400;
+$semi-bold: 600;
+$bold: 700;
+
+$padding: 1.2rem; 
+$borders: 1.2rem; 
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+@function font($font-name) {
+    @return map-get($fonts, $font-name)
+}
+
+

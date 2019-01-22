@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="310px" height="228px" viewBox="0 0 310 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.518 274 0.518 274 103.518 0 103.518"></polygon>
+    </defs>
+    <g id="2---Fast,-Healthy,-(Vegan)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Suncraft_MENU-Copy-2" transform="translate(0.000000, -540.000000)">
+            <g id="Group-29" transform="translate(-27.000000, 536.000000)">
+                <g id="Group-5" transform="translate(168.990052, 177.232215) rotate(14.000000) translate(-168.990052, -177.232215) translate(31.990052, 28.732215)">
+                    <polygon id="Fill-1" fill="#3468A9" points="0 296.425 12.333 296.425 12.333 80 0 80"></polygon>
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M274,99.6663383 C182.664714,86.3237907 91.3352855,113.008886 0,99.6663383 L0,4.36987358 C91.3352855,17.7104163 182.664714,-8.97267402 274,4.36987358 C266.122861,19.1018104 258.247185,34.1314736 250.370046,49.4077382 C258.248649,65.8969618 266.124325,82.6327869 274,99.6663383" id="Fill-2" fill="#3CAAE0" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+                <text id="TAKE-OUT?-NO-PROBLEM" transform="translate(240.509948, 100.884448) rotate(14.000000) translate(-240.509948, -100.884448) " font-family="EnglishGrotesque-Bold, EnglishGrotesque" font-size="30" font-weight="bold" line-spacing="32" fill="#F7F0F0">
+                    <tspan x="90.0099481" y="86.3844478">TAKE OUT?</tspan>
+                    <tspan x="90.0099481" y="118.384448">NO PROBLEM!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

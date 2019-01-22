@@ -1,0 +1,61 @@
+/* auto */
+@mixin push--auto {
+    margin: { 
+        left: auto;
+        right: auto;
+    }
+}
+
+
+/* pseudo */
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+/* images */
+@mixin responsive-ratio($x,$y, $pseudo: false) {
+    $padding: unquote( ( $y / $x ) * 100 + '%' );
+    @if $pseudo {
+        &:before {
+            @include pseudo($pos: relative);
+            width: 100%;
+            padding-top: $padding;
+        }
+    } @else {
+        padding-top: $padding;
+    }
+}
+
+@mixin clear-fix($where) {
+  &:#{$where} {
+    clear: both;
+    content: '';
+    display: block;
+  }
+} 
+
+
+$breakpoints: (
+    "phone":        401px,
+    "phone-wide":   415px,
+    "phablet":      560px,
+    "tablet-small": 641px,
+    "tablet":       769px,
+    "tablet-wide":  1025px,
+    "desktop":      1250px,
+    "desktop-wide": 1441px
+);
+@mixin mq($width, $type: max) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+

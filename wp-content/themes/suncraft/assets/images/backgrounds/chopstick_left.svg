@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="504px" height="236px" viewBox="0 0 504 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F8D562" offset="0%"></stop>
+            <stop stop-color="#EFAB33" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2---Fast,-Healthy,-(Vegan)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Suncraft_MENU-Copy-2" transform="translate(-48.000000, -6386.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-11" transform="translate(498.000000, 6472.000000) scale(-1, 1) translate(-498.000000, -6472.000000) translate(48.000000, 6065.000000)">
+                <g id="Group-13" transform="translate(394.852204, 321.000000)">
+                    <polygon id="Fill-1" transform="translate(253.696899, 155.207573) rotate(73.000000) translate(-253.696899, -155.207573) " points="244.486587 -104.734503 249.024599 415.15169 258.254059 415.150667 262.907211 -104.736544"></polygon>
+                    <polygon id="Fill-1-Copy" transform="translate(239.507496, 118.199703) rotate(65.000000) translate(-239.507496, -118.199703) " points="230.296845 -141.732315 234.813731 378.134515 244.043531 378.133115 248.718148 -141.73511"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

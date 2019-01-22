@@ -1,0 +1,42 @@
+.flex-grid {
+  display: flex;
+	
+	.col {
+ 		flex: 1;
+	}
+}
+.flex-grid-thirds,
+.flex-grid-two {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-two .col {
+  width: 49%;
+}
+.flex-grid-thirds {
+	.col {
+  		width: 32%;
+		
+		&:nth-of-type(3n+2) {
+			text-align: center;
+		}
+		&:nth-of-type(3n+3) {
+			text-align: right;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-two,
+  .flex-grid-thirds {
+    	display: block;
+	  
+    	.col {
+      		width: 100%;
+      		margin: 0 0 10px 0;
+			padding: $padding;
+    }
+  }
+}
+

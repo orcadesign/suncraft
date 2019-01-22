@@ -1,0 +1,35 @@
+/* 404 page */
+section.page-content.page-404 {
+  min-height: calc(100vh - 36.5em);
+  padding: 20em 0 0; }
+
+section.page-content.page-404 center {
+  max-width: 950px; }
+
+section.page-content.page-404 center div.half-col {
+  width: calc(50% - 1em);
+  display: inline-block;
+  float: left; }
+
+section.page-content.page-404 center div.half-col:nth-of-type(1) {
+  margin-right: 1em; }
+
+section.page-content.page-404 center div.half-col:nth-of-type(2) {
+  margin-left: 1em; }
+
+section.page-content.page-404 center div.half-col:nth-of-type(2) p {
+  text-align: right;
+  margin: 0; }
+
+section.page-content.page-404 center div.half-col:nth-of-type(2) p:nth-of-type(1) {
+  margin-top: 1.5em; }
+
+section.page-content.page-404 center div.half-col:nth-of-type(2) a,
+section.page-content.page-404 center div.half-col:nth-of-type(2) i {
+  color: color(tertiary); }
+
+section.page-content.page-404 center div.half-col:nth-of-type(2) i {
+  font-size: 0.75em; }
+
+body.error404 main {
+  height: auto; }

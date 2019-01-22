@@ -1,0 +1,42 @@
+
+/* general styles */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "english-grotesque",sans-serif;
+	font-weight: 500;
+	min-height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+html {
+	@include mq('tablet-wide') {
+		font-size: 1.2444vw
+	}
+	@include mq('phone-wide') {
+		font-size: 2.8vw
+	}
+	
+}
+body.noScroll,
+html.noScroll {
+	overflow-y: hidden;
+}
+main {
+	height: 55em;
+	min-height: 0;
+	background: -webkit-linear-gradient(to top, #ffca3b, #fdb029, #f9941e, #f4781b, #ec5a1e);
+	background: -moz-linear-gradient(to top, #ffca3b, #fdb029, #f9941e, #f4781b, #ec5a1e);
+	background: -ms-linear-gradient(to top, #ffca3b, #fdb029, #f9941e, #f4781b, #ec5a1e);
+	background: -0-linear-gradient(to top, #ffca3b, #fdb029, #f9941e, #f4781b, #ec5a1e);
+	background: linear-gradient(to top, #ffca3b, #fdb029, #f9941e, #f4781b, #ec5a1e);
+}
+.home main {
+	height: 100vh;
+}
+/*body:not(.home) main {
+	min-height: 40vh;
+}*/
+.clear {
+	clear: both;
+}
