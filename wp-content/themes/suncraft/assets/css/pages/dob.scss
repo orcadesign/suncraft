@@ -154,6 +154,10 @@ dob section.default h2 {
 	font-size: 1.2em;
 	font-weight: 400;
 	text-align: left;
+	
+	@include mq('tablet') {
+		font-size: 1.8em;
+	}
 }
 #dob section.pre_footer {
 	height: 12em;
@@ -242,22 +246,26 @@ div.partner-list div.cards {
 	float: left;
 	width: calc(33% - 2em);
 	margin-right: 2em;
-	height: 18em;
-	margin-bottom: 12em;
+	height: 22em;
+	margin-bottom: 15em;
 	position: relative;
 }
 div.partner-list div.cards:nth-of-type(3n+3) {
 	margin-right: 0;
 }
 div.partner-list div.cards img {
-	height: 10em;
+	height: 14vw;
 	object-fit: cover;
 	width: calc(100% - 4em);
 	-webkit-box-shadow: 0 0 2em rgba(0,0,0,0.33);
     box-shadow: 0 0 2em rgba(0,0,0,0.33);
+	
+	@include mq('tablet-wide') {
+		height: 20vw;
+	}
 }
 div.partner-list div.cards:nth-of-type(2n+2) img {
-    height: 10em;
+    height: 14vw;
     object-fit: cover;
     width: calc(100% - 4em);
     bottom: -9em;
@@ -265,6 +273,11 @@ div.partner-list div.cards:nth-of-type(2n+2) img {
     left: 7em;
 	-webkit-box-shadow: 0 0 2em rgba(0,0,0,0.33);
     box-shadow: 0 0 2em rgba(0,0,0,0.33);
+	
+	@include mq('tablet-wide') {
+		height: 20vw;
+		bottom: -14vw;
+	}
 }
 div.partner-list div.cards .orange_bg {
     width: calc(100% - 60px);
@@ -288,7 +301,7 @@ div.partner-list div.cards .orange_bg h3 {
 	font-size: 2em;
 	font-weight: 500;
 	margin: .4em;
-	max-height: 1.8em;
+	min-height: 2em;
 }
 div.partner-list div.cards .orange_bg p {
 	color: white;

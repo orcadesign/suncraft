@@ -231,6 +231,10 @@
 				width: 85%;
 			}
 			
+			p {
+				text-transform: uppercase;
+			}
+			
 			.col-33 {
 				width: calc(33.33% - 2rem);
 				margin-right: 2rem;
@@ -242,7 +246,6 @@
 				}
 				p {
 					margin-bottom: 0;
-					text-transform: uppercase;
 				}
 				span {
 					text-transform: uppercase;
