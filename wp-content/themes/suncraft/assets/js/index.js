@@ -43,9 +43,18 @@ $(document).ready(function(){
 		dots: true,
 	});	
 	$('.on-the-go').slick({
-		slidesToShow: 1,
+		slidesToShow: 2,
+		infinite: true,
 		slidesToScroll: 1,
 		dots: true,
+		 responsive: [
+			{
+			  breakpoint: 641,
+			  settings: {
+				slidesToShow: 1
+			  }
+			}
+		]
 	});
 	
 	// Select all links with hashes
@@ -98,10 +107,11 @@ $('a[href*="#"]')
 	}
 
 	$(window).scroll(function () {
-		$('section.default#menu article').each(function () {
+		$('section.default#menu article .transition').each(function () {
 			if (isScrolledIntoView(this) === true) {
 				$(this).addClass('visible');
 			}
+			
 		});
 
 	});

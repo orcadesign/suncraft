@@ -24,5 +24,3 @@ $borders: 1.2rem;
 @function font($font-name) {
     @return map-get($fonts, $font-name)
 }
-
-

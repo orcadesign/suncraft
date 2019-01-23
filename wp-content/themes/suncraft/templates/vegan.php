@@ -11,7 +11,7 @@
 	<h3 class="tagline"><?php the_field("tagline"); ?></h3>
 	
 	<a class="flag" href="#onTheGo">
-		<img src="<?=$theme?>/assets/images/take-out.svg" />
+		<img src="<?=$theme?>/assets/images/take-out.png" />
 	</a>
 	
 </div>
@@ -25,7 +25,7 @@
 				<section id="menu" class="default" >
 					<center class="wrapper">
 						<article class="formatting">
-							<div class="col-text">
+							<div class="col-text transition">
 								
 								<h2><?php the_sub_field("title");?></h2>
 							
@@ -77,7 +77,7 @@
 							</div>
 							<!-- .col-50 -->
 							
-							<div class="col-img">
+							<div class="col-img transition">
 								<?php
 								$main_image = get_sub_field('main_image'); ?>
 								
@@ -94,8 +94,8 @@
 										<img class="mango left" src="<?=$theme?>/assets/images/backgrounds/mango-bg-left.svg" />
 										<img class="mango right" src="<?=$theme?>/assets/images/backgrounds/mango-bg-right.svg" />
 									</div>
-									<img class="chopstick right" src="<?=$theme?>/assets/images/backgrounds/chopstick_right.svg" />
-									<img class="chopstick left" src="<?=$theme?>/assets/images/backgrounds/chopstick_left.svg" />
+									<img class="chopstick right transition" src="<?=$theme?>/assets/images/backgrounds/chopstick_right.svg" />
+									<img class="chopstick left transition" src="<?=$theme?>/assets/images/backgrounds/chopstick_left.svg" />
 								</div>
 								
 								
@@ -147,7 +147,7 @@
 			<!-- ./pre_footer -->
 			<section class="footer" id="onTheGo">
 				<center class="wrapper">
-					<article class="formatting" data-scrollmagic>	
+					<article class="formatting">	
 						<div class="inner">
 							<div class="col-33">
 								<?php $otg_image = get_field('otg_image');?>
