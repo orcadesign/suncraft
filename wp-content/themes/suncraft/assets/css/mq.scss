@@ -490,9 +490,7 @@
 		bottom: -1.3em;
     	width: 75%;
 	}
-	nav.main-menu div.social-icons a i {
-		font-size: 1.2em;
-	}
+	
 	section.menu div.box {
 		width: 19em;
 		margin-top: 4em;
@@ -822,7 +820,9 @@
 /* ./768px */
 
 @media (max-width: 414px) {
-	
+	nav.main-menu div.social-icons a i {
+		font-size: 3.8vw;
+	}
 	div.partner-list div.cards img, div.partner-list div.cards:nth-of-type(2n+2) img  {
 		height: 40vw;
 	}
@@ -1472,8 +1472,8 @@
 		margin-bottom: .5em
 	}
 	nav.main-menu div.social-icons {
-		bottom: 0;
-		right: .5em
+		bottom: 1em;
+		right: 1.2em
 	}
 	nav.main-menu ul {
 		-webkit-transform: none !important;
