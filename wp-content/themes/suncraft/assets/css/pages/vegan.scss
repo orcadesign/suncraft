@@ -104,11 +104,11 @@
 			
 			&::before {
 				@include pseudo;
-				margin-top: calc(-30vw - 4em);
+				margin-top: calc(-30vw - 3.9em);
 				width: 0;
 				height: 0;
 				border-style: solid;
-				border-width: 30vw 100vw 0 0;
+				border-width: 30.1vw 100vw 0 0;
 				display: inline;
 				z-index: 0;
 				border-color: transparent #ffca3b transparent transparent;
