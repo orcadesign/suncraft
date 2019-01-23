@@ -117,7 +117,7 @@ $theme  = get_template_directory_uri();
 					<img alt="Image leaf" class="absolute family" src="<?=$theme?>/assets/images/home/family_3.png" />
 					<h2><?php the_field("title_family"); ?></h2>
 					<button class="default">
-						<a href="<php? the_field("button_link_family");?>"><?php the_field("button_text_family");?></a>
+						<a href="<?php the_field("button_link_family");?>"><?php the_field("button_text_family");?></a>
 					</button>
 
 				</article>
