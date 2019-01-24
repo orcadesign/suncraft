@@ -40,3 +40,19 @@ main {
 .clear {
 	clear: both;
 }
+.transition {
+	opacity: 0;
+	transition: transform 1s,opacity 1s,-webkit-transform 1s;
+	
+	&.left {
+		transform: translateZ(0) translateX(-10rem);
+	}
+	&.right {
+		transform: translateZ(0) translateX(10rem);
+	}
+
+	&.visible {
+		transform: translateZ(0);
+		opacity: 1;
+	}
+}

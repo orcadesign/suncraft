@@ -96,6 +96,8 @@ $('a[href*="#"]')
 	
 	
 	
+	$("section article > div").addClass("transition");
+
 	function isScrolledIntoView(elem) {
 		var docViewTop = $(window).scrollTop();
 		var docViewBottom = docViewTop + $(window).height();
@@ -107,7 +109,7 @@ $('a[href*="#"]')
 	}
 
 	$(window).scroll(function () {
-		$('section.default#menu article .transition').each(function () {
+		$('section article .transition').each(function () {
 			if (isScrolledIntoView(this) === true) {
 				$(this).addClass('visible');
 			}

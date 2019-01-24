@@ -1,4 +1,4 @@
-//instantiate a TimelineLite    //hey
+//instantiate a TimelineLite    
 var tl_m = new TimelineLite();
 
 // one
@@ -28,6 +28,7 @@ TweenMax.from("div.container.post span.entry-date", .75, {css:{y: -100, opacity:
 
 TweenMax.from("div.container.search h2", .75, {css:{y: 50, opacity:0}, delay:1.6});
 
+TweenMax.from("a.flag img", .75, {css:{rotation: 45, opacity:0}, delay:1.6});
 
 //instantiate a TimelineLite    
 var tl = new TimelineLite();
@@ -422,9 +423,21 @@ var single_blog_next_button = TweenMax.from('div.bottom_navigation div.col-50:nt
 
 
 
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+
+
+
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+
+
+
 
 // init ScrollMagic Controller
 var controller = new ScrollMagic.Controller();
+
+
+
+
 
 
 
