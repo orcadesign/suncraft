@@ -96,7 +96,8 @@ $('a[href*="#"]')
 	
 	
 	
-	$("section article > div").addClass("transition");
+	$("section:not(.pre_footer):not(.blog-listings) article *, section article > div:not(.partner-list)").addClass("transition");
+	$("section article div.partner-list, section article div.partner-list *").delay(400).removeClass("transition");
 
 	function isScrolledIntoView(elem) {
 		var docViewTop = $(window).scrollTop();
@@ -107,7 +108,6 @@ $('a[href*="#"]')
 
 		return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 	}
-
 	$(window).scroll(function () {
 		$('section article .transition').each(function () {
 			if (isScrolledIntoView(this) === true) {

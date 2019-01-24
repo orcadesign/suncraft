@@ -43,6 +43,8 @@ main {
 .transition {
 	opacity: 0;
 	transition: transform 1s,opacity 1s,-webkit-transform 1s;
+	transform: translateZ(0) translateX(-10rem);
+	
 	
 	&.left {
 		transform: translateZ(0) translateX(-10rem);

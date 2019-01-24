@@ -103,6 +103,9 @@ $(".burger.open").click(function(){
 	tl.restart().restart(!0)
 });
 
+
+
+/*
 // ScrollMagic
 // build scene
 
@@ -254,9 +257,6 @@ var home_pre_footer_address = TweenMax.from('section.pre_footer p', .75, {
 	opacity: '0',
 	y: 100,
 });
-/*var home_pre_footer_map = TweenMax.from('section.pre_footer div.map', .75, {
-	opacity: '0',
-});*/
 
 // HOME FOOTER
 var home_footer_leaf_one = TweenMax.from('.home footer img.leaf.footer:nth-of-type(1)', .75, {
@@ -648,12 +648,12 @@ var home_pre_footer_address_scene = new ScrollMagic.Scene({
 .setTween(home_pre_footer_address);
 
 
-
+*/
 // DOB TOP SECTION
 
 
 // First section
-
+/*
 // main image
 var dob_page_main_img_scene = new ScrollMagic.Scene({
 	triggerElement: '#dob section.default:nth-of-type(1) div.wrapper:nth-of-type(1) img.feature',
@@ -949,4 +949,4 @@ controller.addScene([
 	single_blog_next_button_scene
 ]);
 
-		
+		*/
