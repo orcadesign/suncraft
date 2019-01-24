@@ -9,7 +9,7 @@ $theme  = get_template_directory_uri();
 </main>
 		<div class="site">
 		<div class="tagline">
-			<h1>Forward thinking, health conscious plant-based food &amp; drink on Gloucester Road</h1>
+			<h1>Forward thinking, health conscious plant-based food &amp; drinfk on Gloucester Road</h1>
 			<img alt="Title stroke" src="<?=$theme?>/assets/images/stroke.png" />
 		</div>
 <h3 class="tagline"><?php the_field("introduction_text"); ?></h3>
