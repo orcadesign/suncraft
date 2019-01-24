@@ -528,7 +528,7 @@
 				img {
 					float: none;
 					width: 100%;
-					object-fit: cover;
+					object-fit: contain;
 					height: 30vw;
 					
 					@include mq('tablet-small') {
