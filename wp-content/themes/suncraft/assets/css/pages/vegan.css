@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'mq'.
-        on line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss, in `mq'
-        from line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss
+        on line 6 of /Users/orca/Documents/Websites/sun-craft.orcatesting.com/html/wp-content/themes/suncraft/assets/css/pages/vegan.scss, in `mq'
+        from line 6 of /Users/orca/Documents/Websites/sun-craft.orcatesting.com/html/wp-content/themes/suncraft/assets/css/pages/vegan.scss
 
 1: /* menu page *\/
 2: .page-template-vegan {
@@ -12,12 +12,12 @@ Error: Undefined mixin 'mq'.
 7: 			height: 59vw;
 8:    			min-height: 30em;
 9:    	 	}
-10: 	}
-11: 
+10: 		@include mq('phone-wide') {
+11: 			height: 100vw;
 
 Backtrace:
-/Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss:6:in `mq'
-/Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss:6
+/Users/orca/Documents/Websites/sun-craft.orcatesting.com/html/wp-content/themes/suncraft/assets/css/pages/vegan.scss:6:in `mq'
+/Users/orca/Documents/Websites/sun-craft.orcatesting.com/html/wp-content/themes/suncraft/assets/css/pages/vegan.scss:6
 /Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
@@ -76,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'mq'.\A         on line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss, in `mq'\A         from line 6 of /Applications/MAMP/htdocs/suncraft-local/wp-content/themes/suncraft/assets/css/pages/vegan.scss\A \A 1: /* menu page */\A 2: .page-template-vegan {\A 3: 	main {\A 4: 		height: 55em;\A 5: 		\A 6: 		@include mq('tablet-wide') {\A 7: 			height: 59vw;\A 8:    			min-height: 30em;\A 9:    	 	}\A 10: 	}\A 11: "; }
+  content: "Error: Undefined mixin 'mq'.\A         on line 6 of /Users/orca/Documents/Websites/sun-craft.orcatesting.com/html/wp-content/themes/suncraft/assets/css/pages/vegan.scss, in `mq'\A         from line 6 of /Users/orca/Documents/Websites/sun-craft.orcatesting.com/html/wp-content/themes/suncraft/assets/css/pages/vegan.scss\A \A 1: /* menu page */\A 2: .page-template-vegan {\A 3: 	main {\A 4: 		height: 55em;\A 5: 		\A 6: 		@include mq('tablet-wide') {\A 7: 			height: 59vw;\A 8:    			min-height: 30em;\A 9:    	 	}\A 10: 		@include mq('phone-wide') {\A 11: 			height: 100vw;"; }
