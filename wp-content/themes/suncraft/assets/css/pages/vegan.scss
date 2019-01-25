@@ -159,7 +159,6 @@
 				overflow: hidden;
 			}
 			
-				
 			> [class^='col'] {
 				float: left;
 				position: relative;
@@ -328,6 +327,27 @@
 				top: 50%;
 				transform: translateY(-50%);
 				margin: 0;
+				
+				&.transition {
+					opacity: 0;
+					transition: transform 1s,opacity 1s,-webkit-transform 1s;
+					transition-delay: 1s;
+					
+					&.left {				
+						transform: translateZ(-5rem) translateX(-10rem);
+						&.visible {
+							transform: translate(0, -50%);
+							opacity: 1;
+						}
+					}
+					&.right {
+						transform: translateZ(-5rem) translateX(10rem);
+						&.visible {
+							transform: translate(0, -50%);
+							opacity: 1;
+						}
+					}
+				}
 			} 
 		}
 		

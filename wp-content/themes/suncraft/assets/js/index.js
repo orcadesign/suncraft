@@ -96,8 +96,12 @@ $('a[href*="#"]')
 	
 	
 	
-	$("section:not(.pre_footer):not(.blog-listings) article *, section article > div:not(.partner-list)").addClass("transition");
-	$("section article div.partner-list, section article div.partner-list *").delay(400).removeClass("transition");
+	$("section:not(.pre_footer):not(.blog-listings) article *, section article > div:not(.partner-list), section img.absolute, section article div.list div.cards").addClass("transition");
+	
+	$("section article div.partner-list, section article div.partner-list *:not(.cards), section article div.list, section#menu article .meal-background, section#menu article .meal-background *").delay(400).removeClass("transition");
+	
+	$("section article .chopstick.transition.left").addClass("transLeft");
+	$("section article .chopstick.transition.right").addClass("transRight");
 
 	function isScrolledIntoView(elem) {
 		var docViewTop = $(window).scrollTop();
