@@ -8,3 +8,4 @@ pipelines:
           - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
           - apt-get -qq install git-ftp
 		  - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_HOST_PATH
+		  
