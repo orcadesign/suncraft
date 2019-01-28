@@ -13,7 +13,6 @@
 	<a class="flag" href="#onTheGo">
 		<img src="<?=$theme?>/assets/images/take-out.png" />
 	</a>
-	
 </div>
 </main>
 		<div class="site">
