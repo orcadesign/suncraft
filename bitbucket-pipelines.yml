@@ -4,14 +4,15 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 image: php:7.1.1
-
 pipelines:
   default:
     - step:
-        caches:
-          - composer
         script:
-          - apt-get update && apt-get install -y unzip
-          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-          - composer install
-          - vendor/bin/phpunit
+          - pear -V
+          - pear install pear/PHP_CodeSniffer
+    - step:
+        name: Deploy to test
+        deployment: test   # can be test, staging or production.
+        # trigger: manual  # Uncomment to make this a manual deployment.
+        script:
+         - echo "Deploying to test environment"
