@@ -19,5 +19,4 @@ get_header(); ?>
 			</center>
 		</section>
 		<!-- ./default  -->
-
 <?php get_footer(); ?>
