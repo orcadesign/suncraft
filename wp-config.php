@@ -22,12 +22,12 @@ define('WP_CACHE', true);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 //define('DB_NAME', 'local_suncraft');
-define('DB_NAME', 'db191851_suncraft_dev');
+define('DB_NAME', 'db191851_suncraft_jan19');
 
 
 /** MySQL database username */
 //define('DB_USER', 'root');
-define('DB_USER', 'db191851_sunuser');
+define('DB_USER', 'db191851_sun_jan');
 
 /** MySQL database password */
 //define('DB_PASSWORD', 'root');
