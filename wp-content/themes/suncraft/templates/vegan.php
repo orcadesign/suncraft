@@ -111,8 +111,20 @@
 						?>
 		<!-- ./default  -->
 		
-		<!-- ./pre_footer -->
-
+		<section class="download">
+				<center class="wrapper">
+					<article class="formatting">
+						<button class="default">
+							<a target="_blank" href="<?php the_field("menu_file_food");?>"><?php the_field("menu_download_text_food");?></a>
+						</button>
+						<button class="default">
+							<a target="_blank" href="<?php the_field("menu_file_drinks");?>"><?php the_field("menu_download_text_drinks");?></a>
+						</button>
+					</article>
+				</center>
+			</section>
+			<!-- ./ download menu button -->
+			
 			<section class="pre_footer">
 				<center class="wrapper">
 					<article class="formatting" >
