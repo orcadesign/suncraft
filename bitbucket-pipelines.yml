@@ -6,4 +6,7 @@ pipelines:
         script:
           - apt-get update && apt-get install -y unzip
           - apt-get -qq install git-ftp
-          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_HOST_PATH
+          - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_HOST_PATH
+		  
+		  # after first init, change init to push. 
+		  # Find FTP path for FTP_HOST_PATH. I went to 'ftp://onlyorca.com' and typed in the username and p/w. Choose path from wp-content/themes
