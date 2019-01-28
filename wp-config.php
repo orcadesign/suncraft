@@ -24,6 +24,7 @@ define('WP_CACHE', true);
 //define('DB_NAME', 'local_suncraft');
 define('DB_NAME', 'db191851_suncraft_dev');
 
+
 /** MySQL database username */
 //define('DB_USER', 'root');
 define('DB_USER', 'db191851_sunuser');
