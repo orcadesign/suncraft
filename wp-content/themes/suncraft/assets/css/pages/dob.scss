@@ -45,7 +45,8 @@ dob section.default h2 {
 }
 #dob section.default:nth-of-type(1) div.wrapper.two {
 	max-width: 1200px;
-	margin-top: 8em
+	margin-top: 8em;
+	z-index: 1;
 }
 #dob section.default:nth-of-type(1) img.featured {
 	width: 90%;
@@ -286,10 +287,13 @@ div.partner-list div.cards .orange_bg {
     margin-top: -6em;
 }
 div.partner-list div.cards:nth-of-type(2n+2) .orange_bg {
-
     padding: 2em 0 6em;
     float: right;
     margin-top: 0;
+	
+	@include mq('phone-wide') {
+		float: left;
+	}
 }
 div.partner-list div.cards .orange_bg h3 {
     height: auto;

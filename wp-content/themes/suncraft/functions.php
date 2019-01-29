@@ -95,13 +95,13 @@ add_action('wp_enqueue_scripts', function()
 	{
 		$theme = get_template_directory_uri();
 
-		//wp_enqueue_style('theme',       $theme . '/assets/css/style.css');
+		wp_enqueue_style('theme',       $theme . '/assets/css/style.css');
 		wp_enqueue_style('mq',       $theme . '/assets/css/mq.css');
 		wp_enqueue_style('slick css',       $theme . '/slick/slick.css');
 
 		wp_enqueue_script('vendor',     $theme . '/assets/js/gsap-dist.js');
 		wp_enqueue_script('slick js',     $theme . '/slick/slick.min.js');
-		//wp_enqueue_script('framework',  $theme . '/assets/js/index.js');
+		wp_enqueue_script('framework',  $theme . '/assets/js/index-dist.js');
 
 		wp_localize_script('framework', 'wp', array
 		(

@@ -181,6 +181,12 @@
 				h2 {
 					font-size: 3.8em;
 					max-width: 23.3rem;
+					
+					@include mq('phone-wide') {
+						max-width: 100%;
+						font-size: 3.4em;
+						padding-top: .7em;
+					}
 				}
 			}
 			.col-img {
@@ -617,10 +623,24 @@
 				transform: translateX(-50%);
 				z-index: 99;
 				
+				@include mq('phone-wide') {
+					width: 100%;
+					text-align: center;
+				}
+				
 				li {
+					@include mq('phone-wide') {
+						width: 15px;
+						height: 15px;
+					}
 					button {
 						background: white;
 						opacity: 0.7;
+						
+						@include mq('phone-wide') {
+							width: 12px;
+							height: 12px;
+						}
 					}
 					&.slick-active button, &:hover button {
 						background: #ffca3b;
@@ -632,9 +652,9 @@
 	section.footer {
 		background: #2669a6;
 		min-height: 0;
-		margin-top: -18rem;
 		z-index: 0;
 		padding-top: 8rem;
+		margin: -18rem 0 -1px;
 		
 		article {
 			> div {
@@ -702,14 +722,19 @@
 
 			&:nth-of-type(1) {
 				margin-right: 1em;
+				@include mq('phone-wide') {
+					margin: 0 0 1em 0;
+				}
 			}
 			&:nth-of-type(2) {
 				margin-left: 1em;
+				@include mq('phone-wide') {
+					margin-left: 0;
+				}
 			}
 		}
 	}
 }
-
 section#insert_into {
 	padding: 0;
 }

@@ -31,7 +31,7 @@
 		<div class="content_area">
 			<img alt="Image stripe" class="absolute stripe" src="<?=$theme?>/assets/images/blog/blog_4.png" />
 			<img alt="Image stripe" class="absolute stripe" src="<?=$theme?>/assets/images/blog/blog_5.png" />
-			<div class="inner">
+			<!--<div class="inner">-->
 				<?php if( have_rows('paragraph') ):
 					// loop through the rows of data
 					while ( have_rows('paragraph') ) : the_row();
@@ -39,7 +39,7 @@
 				?>
 
 				<?php the_sub_field('paragraph');?>
-			</div>
+			<!--</div>-->
 		</div>
 		<div class="content_area">
 			<?php $image_left = get_sub_field('image_left');?>
