@@ -125,37 +125,35 @@
 			</section>
 			<!-- ./ download menu button -->
 			
-			<section class="pre_footer">
+		<!--	<section class="pre_footer">
 				<center class="wrapper">
 					<article class="formatting" >
 
-						<h2><?php the_field('featured_title');?></h2>
+						<h2><?php// the_field('featured_title');?></h2>
 
 						<div class="on-the-go">
-						<?php if( have_rows('featured_items_other') ):
+						<?php //if( have_rows('featured_items_other') ):
 							// loop through the rows of data
-							while ( have_rows('featured_items_other') ) : the_row(); ?>
+							//while ( have_rows('featured_items_other') ) : the_row(); ?>
 
 
 							<div>
-								<h3><?php the_sub_field('item_title');?></h3>
+								<h3><?php //the_sub_field('item_title');?></h3>
 
-								<?php $image_slider = get_sub_field('item_image');?>
-								<img src="<?php echo $image_slider['url']; ?>" alt="<?php echo $image_slider['alt'] ?>" />
+								<?php //$image_slider = get_sub_field('item_image');?>
+								<img src="<?php //echo $image_slider['url']; ?>" alt="<?php// echo $image_slider['alt'] ?>" />
 							</div>
-							<!-- ./slider-item -->
 
-							<?php endwhile;
-						endif;
+							<?php //endwhile;
+						//endif;
 						?>
 						</div>
-						<!-- ./slick -->
 
 
 
 					</article>
 				</center>
-			</section>
+			</section>-->
 			<!-- ./pre_footer -->
 			<section class="footer" id="onTheGo">
 				<center class="wrapper">

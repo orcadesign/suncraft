@@ -48,6 +48,7 @@ function change_post_object_label() {
     $labels->search_items = 'Search Blog Posts';
     $labels->not_found = 'No Blog Posts found';
     $labels->not_found_in_trash = 'No Blog Posts found in Trash';
+    $labels->rewrite = array( 'slug' => 'blog' );
 }
 add_action( 'init', 'change_post_object_label' );
 
@@ -101,7 +102,7 @@ add_action('wp_enqueue_scripts', function()
 
 		wp_enqueue_script('vendor',     $theme . '/assets/js/gsap-dist.js');
 		wp_enqueue_script('slick js',     $theme . '/slick/slick.min.js');
-		wp_enqueue_script('framework',  $theme . '/assets/js/index-dist.js');
+		//wp_enqueue_script('framework',  $theme . '/assets/js/index-dist.js');
 
 		wp_localize_script('framework', 'wp', array
 		(
