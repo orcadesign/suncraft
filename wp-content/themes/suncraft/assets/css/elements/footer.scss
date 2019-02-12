@@ -141,6 +141,8 @@ div.map p {
 }
 section.pre_footer div.map {
 	margin: 4em 0 -8em;
+	position: relative;
+	z-index: 1;
 }
 section.pre_footer div.map p {
 	width: 63vw;

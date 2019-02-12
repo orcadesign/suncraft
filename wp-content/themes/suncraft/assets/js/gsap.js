@@ -9,7 +9,7 @@ tl_m.from("img.oval, img.logo", 0.7, {width:200,delay:.5, opacity:0});
 //tl_m.to("img.logo", 0.7, {y: -75});
 
 // three
-tl_m.from("div.tagline, h3.tagline", 0.7, {opacity:0, scale: 0}, "-=0.33");
+tl_m.from("div.tagline, h3.tagline", 0.7, {opacity:0}, "-=0.33");
 
 // four
 tl_m.from("div.coming_soon h2", 0.7, {left:-300,scale:.5, opacity:0}, "-=0.33");

@@ -1045,9 +1045,9 @@
 		padding-bottom: 0;
 	}
 	section.menu div.box {
-		width: calc(100% - 8em);
-		margin-top: 7em;
-		margin-right: 2em;
+		width: calc(100% - 4em);
+		margin-top: 5em;
+		margin-right: 0;
 		padding: 2em;
 	}
 	section.menu div.box p {
@@ -1075,14 +1075,14 @@
 	}
 	section.menu div.bottom_container img.absolute:nth-of-type(2) {
 		right: auto;
-		bottom: -9em;
+		bottom: 0;
 		width: 17vh;
 		left: 0;
 	}
 	section.menu div.bottom_container img.absolute:nth-of-type(1) {
 		right: auto;
 		left: -1em;
-		bottom: -4em;
+		bottom: 12em;
 		width: 15vh;
 	}
 	section.menu h2 {
@@ -1187,7 +1187,7 @@
 		padding-top: 3em;
 	}
 	h2 {
-		font-size: 2.2em;
+		//font-size: 2.2em;
 	}
 	section.pre_footer img.logo {
 		top: -4.5em;
@@ -1431,7 +1431,7 @@
 		padding-top: 0;
 	}
 	section.grow div.right h2 {
-		max-width: 200px;
+		max-width: 100%;
 		padding-bottom: .25em;
 	}
 	section.default.yellow_trap::before {

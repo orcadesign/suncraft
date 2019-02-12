@@ -186,6 +186,7 @@
 						max-width: 100%;
 						font-size: 3.4em;
 						padding-top: .7em;
+						float: none;
 					}
 				}
 			}
@@ -224,7 +225,7 @@
 			float: left;
 			
 			@include mq('tablet-wide') {
-				width: 85%;
+				width: 73.5%;
 			}
 			
 			p {
@@ -378,13 +379,16 @@
 						float: right;
 					}
 					@include mq('phone-wide') {
-						float: left;
+						float: none;
 						text-align: left;
 					}
 				}
 				
 				.info-box {
 					float: left;
+					@include mq('tablet-wide') {
+						float: none;
+					}
 				}
 			}
 			
@@ -459,9 +463,16 @@
 					@include mq('tablet-wide') {
 						float: left;
 					}
+					@include mq('phone-wide') {
+						float: none;
+					}
 				}
+				
 				.info-box {
 					float: right;
+					@include mq('tablet-wide') {
+						float: none;
+					}
 				}
 				
 			}
@@ -688,6 +699,10 @@
 						margin: 3em auto 0;
 						width: 16rem;
 					}
+					@include mq("phone-wide") {
+						margin: 10em auto 0;
+							
+					}
 				}
 			}
 			.col-66 {
@@ -719,6 +734,12 @@
 		button.default {
 			background: #de3391;
 			color: #2669a6;
+			
+			@include mq('phone-wide') {
+				width: calc(50% - 1em);
+				min-width: 0;
+				padding: 1.2em 1.7em;
+			}
 
 			&:nth-of-type(1) {
 				margin-right: 1em;
@@ -729,7 +750,7 @@
 			&:nth-of-type(2) {
 				margin-left: 1em;
 				@include mq('phone-wide') {
-					margin-left: 0;
+					//margin-left: 0;
 				}
 			}
 		}

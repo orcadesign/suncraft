@@ -271,8 +271,12 @@ section.menu div.bottom_container {
 	max-width: 95%;
 	margin: auto;
 	z-index: 4;
-	height: 25em
+	height: 25em;
+	@include mq("phone-wide") {
+		height: 35em;
+	}
 }
+
 section.menu div.bottom_container img.absolute:nth-of-type(1) {
 	right: 22.5em;
     width: 170px;
@@ -474,6 +478,9 @@ section.dob img.absolute:nth-of-type(1) {
 }
 section.dob center {
 	max-width: 1200px;
+	@include mq("phone-wide") {
+		width: 95%;
+	}
 }
 /* ./section – dob */
 
