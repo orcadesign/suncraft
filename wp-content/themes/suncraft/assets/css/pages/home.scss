@@ -271,7 +271,7 @@ section.menu div.bottom_container {
 	max-width: 95%;
 	margin: auto;
 	z-index: 4;
-	height: 25em;
+	height: 10vw;
 	@include mq("phone-wide") {
 		height: 35em;
 	}

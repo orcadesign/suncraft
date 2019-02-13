@@ -20,6 +20,9 @@ $(document).ready(function(){
 		$("nav.main-menu").toggleClass("open");
 		$("body, html").toggleClass("noScroll");
 	});
+	$('.nav_button').click(function () {
+		$(".nav_button .burger").delay(200).removeClass("init")
+	});
 	$(function () {
 		$("section.blog-listings .list .cards").slice(0, 6).show();
 		$("#loadMore").on('click', function (e) {
@@ -98,7 +101,7 @@ $('a[href*="#"]')
 	
 	$("section:not(.pre_footer):not(.blog-listings) article *, section article > div:not(.partner-list), section img.absolute, section article div.list div.cards").addClass("transition");
 	
-	$("section article div.partner-list, section article div.partner-list *:not(.cards), section article div.list, section#menu article .meal-background, section#menu article .meal-background *, section.posts .content_area, section.posts .content_area .inner, .wrapper, .slick-slider, [class^='slick']").delay(400).removeClass("transition");
+	$("section article div.partner-list, section article div.partner-list *:not(.cards), section article div.list, section#menu article .meal-background, section#menu article .meal-background *, section.posts .content_area, section.posts .content_area .inner, .wrapper, .slick-slider, [class^='slick'], div.site section:nth-of-type(1) article > img:nth-of-type(1), div.site section:nth-of-type(1) img.featured").delay(200).removeClass("transition");
 	
 	$("section article .chopstick.transition.left").addClass("transLeft");
 	$("section article .chopstick.transition.right").addClass("transRight");
@@ -118,8 +121,20 @@ $('a[href*="#"]')
 				$(this).addClass('visible');
 			}
 		});
-
 	});
+	
+	
+	$(window).scroll(function() {    
+		// find the id with class 'active' and remove it
+		$("#backtotop").removeClass("show");
+		// get the amount the window has scrolled
+		var scroll = $(window).scrollTop();
+		// add the 'active' class to the correct id based on the scroll amount
+		if (scroll >= 100) {
+			$("#backtotop").addClass("show");
+		}
+	});
+	
 	
 });
 

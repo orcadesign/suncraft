@@ -172,28 +172,25 @@ nav.main-menu ul li a {
 }
 /* ./nav menu */
 
-
 .burger {
 	border: 0;
 	background: none;
 	outline: 0;
 	padding: 0;
 	cursor: pointer;
-	border-bottom: 2px solid white;
-	width: 24px;
+	//border-bottom: 2px solid white;
+	width: 28px;
 	transition: all 1s ease-in-out;
-  	-webkit-transition: all 1s ease-in-out;
 	position: absolute;
 	z-index: 9999;
-	top: 21px;
-	right: 17px;
+	top: 25px;
+	right: 16px;
 }
 .burger::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
 .burger:not(.open):hover {
-	-webkit-transform: matrix(1, 0, 0, 1.15, 0, 0);
 	transform: matrix(1, 0, 0, 1.15, 0, 0);
 }
 .burger:before {
@@ -203,7 +200,6 @@ nav.main-menu ul li a {
 	width: 100%;
 	margin-bottom: 5px;
 	transition: transform 0.5s ease-in-out;
-	-webkit-transition: -webkit-transform 0.5s ease-in-out;
 	position: relative;
 }
 .burger:after {
@@ -213,7 +209,7 @@ nav.main-menu ul li a {
 	width: 100%;
 	margin-bottom: 5px;
 	transition: transform 0.5s ease-in-out;
-	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	
 	position: relative;
 }
 .burger:hover .burger:before {
@@ -225,21 +221,16 @@ nav.main-menu ul li a {
 	margin-bottom: 6px;
 }
 .burger.open {
-	border-bottom: 4px solid transparent;
+	//border-bottom: 4px solid transparent;
 	transition: border-bottom 0.8s ease-in-out;
-	-webkit-transition: border-bottom 0.8s ease-in-out;
 }
 .burger.open:before {
-    transform: rotate(-405deg) translateY(1px) translateX(-3px);
-    -webkit-transform: rotate(-405deg) translateY(6px) translateX(-6px);
-    transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+   transform: rotate(-405deg) translateY(4px) translateX(-4px);
+   transition: transform 0.5s ease-in-out;
 }
 .burger.open:after {
-    transform: rotate(405deg) translateY(-4px) translateX(-5px);
-    -webkit-transform: rotate(405deg) translateY(1px) translateX(1px);
+    transform: rotate(405deg) translateY(-2px) translateX(-1px);
     transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
 /* ./nav button */

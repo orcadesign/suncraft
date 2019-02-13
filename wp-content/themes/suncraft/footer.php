@@ -58,6 +58,8 @@
 			<img alt="Footer leaf image" class="leaf footer" src="<?=$theme?>/assets/images/leaf/footer_leaf.png" />
 			<img alt="Footer leaf image" class="leaf footer" src="<?=$theme?>/assets/images/leaf/leaf4_new.png" />
 			<img alt="Footer leaf image" class="leaf footer" src="<?=$theme?>/assets/images/leaf/leaf4_new.png" />
+			
+			<a id="backtotop" href="#top"><div class="nav_button"><i class="fas fa-chevron-up"></i></div></a>
 		</footer>
 		<? wp_footer(); ?>
 

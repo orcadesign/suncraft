@@ -84,18 +84,15 @@ tl_r.from("img.leaf:nth-of-type(14)", 0.7, {opacity:0, rotation:80, right: -100 
 
 var tl_menu = new TimelineLite();
 
-$(".burger:not(.open)").click(function(){
-	tl_menu.staggerFrom('nav.main-menu ul li', .5, { 
+$(".init").click(function(){
+	tl_menu.staggerFrom('nav.main-menu ul li', .25, { 
 		y: 10,
-		opacity: 0,	
-		delay:.25,
-		ease: Power1.easeInOut
+		opacity: 0
 	}, 0.1 );
-	tl_menu.from("nav.main-menu ul li:nth-last-child(2)::before", .75, {
+	tl_menu.from("nav.main-menu ul li:nth-last-child(2)::before", .5, {
 		css: {
-			opacity:0,
-			ease: Power1.easeInOut
-		}, delay:0
+			opacity:0
+		}
 	});
 });
 

@@ -55,7 +55,7 @@
 	<body id="top" <?php body_class(); ?>>
 		
 		<div class="nav_button">
-		<button class="burger"></button>
+		<button class="burger init"></button>
 		</div>
 		<!-- ./nav button-->
 		

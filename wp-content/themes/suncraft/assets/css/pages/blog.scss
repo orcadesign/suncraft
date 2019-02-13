@@ -17,7 +17,11 @@ div.container.top h3.tagline {
 	margin: 2em 0;
 }
 
-
+section {
+	&.posts {
+		padding-bottom: 10em;
+	}
+}
 section.blog-listings div.list  {
 	/*-webkit-column-count: 3;
     -moz-column-count: 3;
@@ -186,33 +190,34 @@ article[id^="post"] {
 				display: inline-block;
 				width: 38em;
 				float: right;
-				margin-top: 5em;
+				margin-top: 0;
 				right: -1em;
 				z-index: 9
 			}
 			 p {
-				width: calc(100% - 32em);
+				width: calc(100% - 26em);
 				margin-right: 5em;
 				display: inline-block;
 				vertical-align: top;
 			}
 		}
+		
 		div.text_right {
 			padding: 2em 0;
 			position: relative;
-			min-height: 29em; 
+			min-height: 14em; 
 				 p {
-					width: calc(100% - 25em);
-					margin-left: 19em;
+					width: calc(100% - 31em);
+					margin-left: 23em;
 					display: inline-block;
 					vertical-align: top;
-					margin-top: 0
+					margin-top: 2.4em;
 				}
 		}
 		div.text_right img,
 		img.img_left {
     		display: inline-block;
-			width: 24em;
+			width: 29em;
 			margin-left: 0;
 			z-index: 9;
 		}
@@ -220,7 +225,7 @@ article[id^="post"] {
 			display: inline-block;
 			width: 38em;
 			float: right;
-			margin-top: 5em;
+			margin-top: 2.2em;
 			right: -1em;
 			z-index: 9;
 		}
