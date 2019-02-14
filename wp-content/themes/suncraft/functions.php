@@ -109,3 +109,15 @@ add_action('wp_enqueue_scripts', function()
 			"ajax_url" => admin_url('admin-ajax.php')
 		));
 	});
+
+
+
+// custom menus
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Main Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
