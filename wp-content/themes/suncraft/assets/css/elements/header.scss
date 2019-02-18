@@ -127,7 +127,10 @@ nav.main-menu ul li:nth-last-child(1), nav.main-menu ul li:nth-last-child(2) {
 	@include mq('phone-wide') {
 		font-size: 1.2em;
 	}
-	
+}
+
+nav.main-menu ul li:nth-last-child(2) {
+	display: none;
 }
 nav.main-menu ul li:nth-last-child(2)::before {
     content: '';

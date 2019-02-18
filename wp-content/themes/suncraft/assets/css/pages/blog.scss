@@ -205,7 +205,7 @@ article[id^="post"] {
 		div.text_right {
 			padding: 2em 0;
 			position: relative;
-			min-height: 14em; 
+			min-height: 20em; 
 				 p {
 					width: calc(100% - 31em);
 					margin-left: 23em;
@@ -220,6 +220,8 @@ article[id^="post"] {
 			width: 29em;
 			margin-left: 0;
 			z-index: 9;
+			height: 20em; 
+			object-fit: cover;
 		}
 		img.img_right {
 			display: inline-block;
@@ -362,3 +364,9 @@ div.alert a {
 	font-weight: 700;
 }
 /* end./ blog single*/
+
+.page-template-grow-your-own section.pre_footer,
+.page-template-our-back-story section.pre_footer,
+.single-post section.pre_footer {
+	display: none;
+}

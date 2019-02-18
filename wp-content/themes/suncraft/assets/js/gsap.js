@@ -82,7 +82,7 @@ tl_r.from("img.leaf:nth-of-type(14)", 0.7, {opacity:0, rotation:80, right: -100 
 
 
 
-var tl_menu = new TimelineLite();
+/*var tl_menu = new TimelineLite();
 
 $(".init").click(function(){
 	tl_menu.staggerFrom('nav.main-menu ul li', .25, { 
@@ -99,7 +99,7 @@ $(".init").click(function(){
 $(".burger.open").click(function(){
 	tl.restart().restart(!0)
 });
-
+*/
 
 
 /*
