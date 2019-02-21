@@ -11,7 +11,7 @@ html, body {
 }
 html {
 	@include mq('tablet-wide') {
-		font-size: 1.2444vw
+		font-size: 1.66vw
 	}
 	@include mq('phone-wide') {
 		font-size: 2.8vw

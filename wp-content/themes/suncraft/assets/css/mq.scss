@@ -280,12 +280,12 @@
 	#dob section.default:nth-of-type(1) div.half-col div.box {
 		padding: 2em
 	}
-	#dob section.default:nth-of-type(1) div.half-col div.box {
+	/*#dob section.default:nth-of-type(1) div.half-col div.box {
 		width: calc(100% - 6em)
 	}
 	#dob section.default:nth-of-type(1) div.half-col:nth-of-type(2) div.box {
 		width: 75%;
-	}
+	}*/
 	#dob section.default.blue_trap center.wrapper > img.absolute:nth-of-type(1) {
 		top: -15vw;
 		max-width: 23vw;
@@ -628,21 +628,8 @@
 		-webkit-box-shadow: 0 0 3vw rgba(0,0,0,0.33);
     	box-shadow: 0 0 3vw rgba(0,0,0,0.33);
 	}
-	#dob section.default:nth-of-type(1) div.half-col div.box {
-		width: calc(100% - 3em);
-		margin-bottom: 2em;
-	}
-	#dob section.default:nth-of-type(1) div.half-col:nth-of-type(2) div.box {
-    width: calc(100% - 4em);
-		margin: 2em 0 0 0;
-	}
-	div.half-col {
-		width: calc(100% - 1em);
-		display: block;
-		vertical-align: top;
-		clear: both;
-		overflow: hidden;
-	}
+	
+	
 	#dob section.default:nth-of-type(1) img.featured {
 		width: 100%;
 	}
@@ -661,7 +648,7 @@
 		max-width: 15vw;
 	}
 	#dob section.default:nth-of-type(1) div.wrapper:nth-of-type(1) > img.absolute:nth-of-type(6) {
-		bottom: -51vw;
+		bottom: -39vw;
 		max-width: 17vw;
 		left: -4vw;
 	}
@@ -673,7 +660,7 @@
 	#dob section.default:nth-of-type(1) div.wrapper.two img.absolute:nth-of-type(2) {
 		max-width: 23vw;
 		left: -5.5vw;
-		top: 113vw;
+		top: 33vw;
 	}
 	#dob section.default:nth-of-type(1) div.wrapper:nth-of-type(1) > img.absolute:nth-of-type(4) {
 		max-width: 40vw;
@@ -704,16 +691,16 @@
 		margin: 2em auto 0;
 	}
 	#dob section.default.blue_trap .half-col > img.absolute:nth-of-type(2) {
-		bottom: 16vw;
-		max-width: 22vw;
-		margin-left: 4vw;
+		bottom: -9vw;
+		max-width: 12vw;
+		margin-left: 2vw;
 	}
 	#dob section.default.blue_trap center.wrapper > img.absolute:nth-of-type(1) {
 		top: 42vw;
 	}
 	#dob section.default.blue_trap .half-col > img.absolute:nth-of-type(1) {
 		max-width: 55vw;
-		margin: 35vw 0 0 30vw;
+		margin: 15vw 0 0 11vw;
 	}
 	#dob section.default:nth-of-type(1)::before, #dob section.default.blue_trap::after {
 		bottom: -0.1em
@@ -816,6 +803,18 @@
 	div.bottom_navigation div.col-50:nth-of-type(1) div a {
 		left: 0;
 	}
+	#dob section.pre_footer h2 {
+		max-width: 603px;
+	}
+	#backtotop i {
+		font-size: 1.5em;
+	}
+	section.dob div.box {
+		margin-top: -12em;
+	}
+	section.default.menu {
+		min-height: 800px;
+	}
 }
 /* ./768px */
 
@@ -872,6 +871,7 @@
 	div.tagline {
 		max-width: 60vw;
 		top: 87vw;
+		top: 31em;
 	}
 	div.tagline h1 {
 		font-size: 1.8vh;
@@ -1013,13 +1013,16 @@
 	}
 	.burger {
 		z-index: 9999;
-		top: 14px;
+		top: 18px;
     	right: 12px;
     	width: 20px;
 	}	
 	.burger:before,
 	.burger:after {
 		margin-bottom: 4px;
+	}
+	.burger.open:before {
+		margin-bottom: 6px;
 	}
 	nav.main-menu {
 		right: 1em;
@@ -1065,13 +1068,13 @@
 		right: 0em;
 		margin-top: auto;
 		width: 18vh;
-		bottom: -19vh;
+		bottom: -2vh;
 	}
 	section.grow center {
 		margin-top: 0
 	}
 	section.default.blue_trap::before {
-		margin-top: -.03em;
+		margin-top: -.15em;
 	}
 	section.menu div.bottom_container img.absolute:nth-of-type(2) {
 		right: auto;
@@ -1365,7 +1368,7 @@
 	}
 	div.partner-list div.cards .orange_bg p {
 		display: -webkit-box;
-		-webkit-line-clamp: 4;
+		-webkit-line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -1507,6 +1510,37 @@
 		background-size: auto 16%;
 		right: -76%;
 		top: -2px;
+	}
+	
+	footer > .site-copyright {
+		padding-bottom: 2em;
+	}
+	#dob section.default:nth-of-type(1) div.half-col div.box {
+		width: calc(100% - 6em)
+	}
+	#dob section.default:nth-of-type(1) div.half-col:nth-of-type(2) div.box {
+		width: 75%;
+	}
+	div.half-col {
+		width: calc(100% - 1em);
+		display: block;
+		vertical-align: top;
+		clear: both;
+		overflow: hidden;
+	}
+	#dob section.default:nth-of-type(1) div.half-col div.box {
+		width: calc(100% - 3em);
+		margin-bottom: 2em;
+	}
+	#dob section.default:nth-of-type(1) div.half-col:nth-of-type(2) div.box {
+    	width: calc(100% - 4em);
+		margin: 2em 0 0 0;
+	}
+	#backtotop i {
+		font-size: 1.4em;
+	}
+	section.default.menu {
+		min-height: 600px;
 	}
 }
 /* 414px */
